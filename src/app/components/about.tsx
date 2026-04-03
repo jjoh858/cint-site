@@ -12,7 +12,7 @@ export default function About() {
             <h1 className={`${jbm.className} text-amber-300 font-bold text-xl`}>What is CInT?</h1>
             <p>
                 CInT is a competitive informatics tournament organized by students at Centennial High School, giving middle and high school students the opportunity to learn how to code, apply problem solving skills, 
-                and make new friends while tackling algorithm-based challenges. In 2025, the event will primarily be focused towards beginners.
+                and make new friends while tackling algorithm-based challenges. 
             </p>
             <h1 className={`${jbm.className} text-amber-300 font-bold text-xl mt-4`}>Date & Location</h1>
             <p>
