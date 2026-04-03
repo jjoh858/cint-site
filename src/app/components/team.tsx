@@ -22,18 +22,6 @@ export default function Team() {
                     })}
                 </ul>
             </div>
-            <!--
-            <div className='border-2 border-slate-700 rounded-md bg-gray-800'>
-                <div className='p-4 w-full border-b-2 border-b-slate-700'>
-                    <h1 className={`${jbm.className} text-amber-300 text-lg font-bold`}>Organizers</h1>
-                </div>
-                <ul className='p-4'>
-                    {regular.map((p, i) => {
-                        return <li className='mt-1' key={i}> -&gt; {p}</li>
-                    })}
-                </ul>
-            </div>
-            -->
         </div>
     </div>
 }
