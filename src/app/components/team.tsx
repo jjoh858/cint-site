@@ -4,9 +4,7 @@ const jbm = JetBrains_Mono({subsets: ["latin"], style: ["normal"]})
 
 export default function Team() {
     
-    const executive = ["Aryan Sharma", "Jaden Li", "Victor Liu", "Joshua Oh", "Rana Cherukuri", "Lakshith Senthil", "Daud Idrees"];
-
-   const regular = ["Albert Cao", "Aman Alamasety", "Barry Chen", "Ethan Burgoon", "Evan Luo", "Hamza Nasher-Alneam", "Kevin Yue", "Kyra Leung", "Natasha Green", "Taha Ahmed", "Zak Mazerski"];    
+    const members = ["Joshua Oh", "Rana Cherukuri", "Lakshith Senthil", "Evan Luo", "Rana Cherukuri", "Taha Ahmed", "Jayson Liu", "Albert Cao", "Aman Alamasety", "Barry Chen", "Ethan Burgoon"];    
 
     return <div className='flex flex-col md:flex-row bg-gray-900 p-4 pt-16 md:p-8 gap-9 md:gap-9 items-top md:pt-20'>
         <div className='grow border-b-amber-300 border-b-2'>
@@ -16,14 +14,15 @@ export default function Team() {
         <div className='w-full md:w-2/3 grid grid-cols-1 lg:grid-cols-2 gap-2'>
             <div className='border-2 border-slate-700 rounded-md bg-gray-800'>
                 <div className='p-4 w-full border-b-2 border-b-slate-700'>
-                    <h1 className={`${jbm.className} text-amber-300 text-lg font-bold`}>Lead Organizers</h1>
+                    <h1 className={`${jbm.className} text-amber-300 text-lg font-bold`}>Organizers</h1>
                 </div>
                 <ul className='p-4'>
-                    {executive.map((p, i) => {
+                    {members.map((p, i) => {
                         return <li className='mt-1' key={i}> -&gt; {p}</li>
                     })}
                 </ul>
             </div>
+            <!--
             <div className='border-2 border-slate-700 rounded-md bg-gray-800'>
                 <div className='p-4 w-full border-b-2 border-b-slate-700'>
                     <h1 className={`${jbm.className} text-amber-300 text-lg font-bold`}>Organizers</h1>
@@ -34,6 +33,7 @@ export default function Team() {
                     })}
                 </ul>
             </div>
+            -->
         </div>
     </div>
 }
