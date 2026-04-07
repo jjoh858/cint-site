@@ -23,11 +23,6 @@ export default function Sponsors() {
           <h1 className={`${jbm.className} text-lg`}>Silver</h1>
         </div>
         <div className="flex flex-row flex-wrap justify-center items-center p-4 bg-gray-600/3 gap-8">
-          <a href="https://www.mathworks.com/" target='_blank'>
-            <img src="sponsors/mathworks.png" className='h-24' alt="Mathworks Logo" style={{backgroundColor: "white", border: "10px solid white", borderRadius: "8px"}} />
-          </a>
-        </div>
-        <div className="flex flex-row flex-wrap justify-center items-center p-4 bg-gray-600/3 gap-8">
           <a href="https://www.janestreet.com/" target='_blank'>
             <img src="sponsors/jane-street.png" className='h-24' alt="Jane Street Logo" style={{backgroundColor: "white", border: "10px solid white", borderRadius: "8px"}} />
           </a>
