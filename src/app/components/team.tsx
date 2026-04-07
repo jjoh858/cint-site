@@ -4,7 +4,7 @@ const jbm = JetBrains_Mono({subsets: ["latin"], style: ["normal"]})
 
 export default function Team() {
     
-    const members = ["Joshua Oh", "Rana Cherukuri", "Lakshith Senthil", "Evan Luo", "Zachary", "Taha Ahmed", "Jayson Liu", "Albert Cao", "Aman Alamasety", "Barry Chen", "Ethan Burgoon"];    
+    const members = ["Joshua Oh", "Rana Cherukuri", "Lakshith Senthil", "Evan Luo", "Zachary Schmelzer", "Taha Ahmed", "Jayson Liu", "Albert Cao", "Aman Alamasety", "Barry Chen", "Ethan Burgoon"];    
 
     return <div className='flex flex-col md:flex-row bg-gray-900 p-4 pt-16 md:p-8 gap-9 md:gap-9 items-top md:pt-20'>
         <div className='grow border-b-amber-300 border-b-2'>
