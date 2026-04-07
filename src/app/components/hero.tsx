@@ -57,8 +57,8 @@ export default function Hero() {
                 <p className="text-sm md:text-base text-amber-300 font-bold">Competitive Informatics Tournament</p>
                 <p className={`${jbm.className} text-slate-400 text-xs`}>Compete, Learn, and Win Prizes!</p>
                 <div className="flex flex-row mt-4 gap-2">
-                    <a className={`${jbm.className} btn-primary max-w-60 w-full`} href="forms.gle/FtfBotpNJscojLYg7" target="_blank" rel="noopener noreferrer">Register</a>
-                    <a className={`${jbm.className} btn-secondary bg-blurple hover:bg-blurple-accent border-blurple hover:border-blurple-accent`} href="https://discord.gg/awd8ScmDaW" target="_blank" rel="noopener noreferrer">Discord</a>
+                    <a className={`${jbm.className} btn-primary max-w-60 w-full`} href="https://forms.gle/6zoNxmneP4TxEQHr9" target="_blank" rel="noopener noreferrer">Register</a>
+                    <a className={`${jbm.className} btn-secondary bg-blurple hover:bg-blurple-accent border-blurple hover:border-blurple-accent`} href="https://discord.gg/C7HEPc5GDH" target="_blank" rel="noopener noreferrer">Discord</a>
                 </div>
             </div>
         </div>
